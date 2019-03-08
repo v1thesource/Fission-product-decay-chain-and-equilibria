@@ -131,7 +131,7 @@ PCI failures in nuclear fuel claddings occur after power ramps, typically with a
 
 Stress-corrosion cracking (SCC) in nuclear fuel pins is an issue related to early loss of structural integrity of fuel assemblies in light water reactors (LWRs). In particular, the phenomenon of pellet-cladding interaction (PCI) in combination with SCC can lead to failures where the cladding is breached, exposing fuel to the coolant \cite{bcoxpelletclad1990}.     \\
 
-Nuclear fuel claddings have unique materials challenges owing to the highly active environment in which they operate and the creation of unstable isotopes. Corrosive species in the pin such as iodine, produced directly as a result of uranium fission are known to play a role in SCC \cite{Sidky1998, Fregonese1998, iodinezrmetal}. However, iodine nuclei produced from fission are unstable. Fission of uranium produces iodine precursors, mainly unstable isotopes of tellurium. Both iodine and tellurium are relatively common fission products, with combined independent yields from thermal fission of U$_{235}$ of more than 5\% \cite{kennett1956mass, iodine129fissionyield, imanishi1976independent, iaeafissionyield, iodine132, amiel1975odd}. In addition, xenon and caesium are also common fission products, as shown in Figure \ref{fig:fissionyield}, with fission product masses firmly within the heavy nuclide peak of uranium and plutonium fission product distribution curves.    \\
+Nuclear fuel claddings have unique materials challenges owing to the highly active environment in which they operate and the creation of unstable isotopes. Corrosive species in the pin such as iodine, produced directly as a result of uranium fission are known to play a role in SCC \cite{Sidky1998, Fregonese1998, iodinezrmetal}. However, iodine nuclei produced from fission are unstable. Fission of uranium produces iodine precursors, mainly unstable isotopes of tellurium. Isotopes of iodine and tellurium are some of the most common fission products, with combined independent yields from thermal fission of U$_{235}$ of more than 25\%. In addition, xenon and caesium are also common fission products, as shown in Figure \ref{fig:fissionyield}, with fission product masses firmly within the heavy nuclide peak of uranium and plutonium fission product distribution curves.    \\ %\cite{kennett1956mass, iodine129fissionyield, imanishi1976independent, iodine132, amiel1975odd}
 
 Previous work on defect equilibria in \zirconia\ considered the internal side of the fuel cladding oxide layer's effectiveness as a barrier to iodine \cite{kenichiodine2018}. It was found that the tetragonal phase of \zirconia\ is a better barrier to iodine ingress than monoclinic \zirconia , especially at higher oxygen partial pressures. It is also established that tetragonal \zirconia\ will always be present on the inner surface of the cladding in significant quantities because it is self-stabilised by the stresses imposed as the oxide grows into the zirconium metal, in addition to compressive residual stresses induced by radiation damage \cite{causey2005review}. The iodine defect study, however, only informs us about one part of the SCC process. For a more holistic understanding, the life cycle of the iodine must also be taken into account.     \\
 
@@ -634,21 +634,28 @@ Defect type & \begin{tabular}[c]{@{}c@{}}Defect volume relative\\ to perfect cry
 %\end{table}
 
 \begin{table}
-\caption{Independent fission product yields and half-lives for the major iodine isotopes and precursors in a thermal neutron reactor. Yields from \cite{iodinefissionyields, iodine132}. All isotopes undergo single $\beta$- decay. Metastable states are included.}  \label{table:decaydata}
+\caption{Independent fission product yields and half-lives for the major iodine isotopes and precursors in a thermal neutron reactor. Yields from the Joint Evaluated Fission and Fusion File (JEFF 3.3). All isotopes undergo single $\beta$- decay. Metastable states are included.}  \label{table:decaydata}
 \begin{center}
 \begin{tabular}{c c c}
 \hline
 Isotope & Independent Yield (\%) & Half-life \\
 \hline
-\texorpdfstring{I\textsubscript{131}}{I131} & 0.00136 $\pm 0.00047$ & 8.023 d \cite{I131halflife} \\
-\texorpdfstring{Te\textsubscript{132}}{Te132} & 1.61 $\pm 0.37$ & 3.180 d \cite{Te132} \\
-\texorpdfstring{I\textsubscript{132}}{I132} & 0.017 $\pm 0.11$  & 2.295 h \cite{Te132} \\
-\texorpdfstring{Te\textsubscript{133}}{Te133} & 3.93 $\pm 0.15$ & 12.5 m \cite{iaeafissionyield} \\
-\texorpdfstring{I\textsubscript{133}}{I133} & 0.153 $\pm 0.053$ & 20.87 h \cite{I133} \\
-\texorpdfstring{Te\textsubscript{134}}{Te134} & 6.00 $\pm 0.47$ & 41.8 m \cite{iaeafissionyield} \\
-\texorpdfstring{I\textsubscript{134}}{I134} & 0.900 $\pm 0.08$  & 52.5 m \cite{Sonzogni2004} \\
-\texorpdfstring{Te\textsubscript{135}}{Te135} & 3.683 $\pm 0.56$ & 19.0 s \cite{iaeafissionyield} \\
-\texorpdfstring{I\textsubscript{135}}{I135} & 2.550 $\pm 0.54$ & 6.58 h \cite{Singh2008} \\ \hline
+\texorpdfstring{I\textsubscript{131}}{I131} & 0.0029604
+ & 8.023 d \cite{I131halflife} \\
+\texorpdfstring{Te\textsubscript{132}}{Te132} & 1.5042 & 3.180 d \cite{Te132} \\
+\texorpdfstring{I\textsubscript{132}}{I132} & 0.028399  & 2.295 h \cite{Te132} \\
+\texorpdfstring{Te\textsubscript{133}}{Te133} & 3.9386 & 12.5 m \cite{khazov2011nuclear} \\
+\texorpdfstring{I\textsubscript{133}}{I133} & 0.198194  & 20.87 h \cite{I133} \\
+\texorpdfstring{Te\textsubscript{134}}{Te134} & 6.3001 & 41.8 m \cite{Sonzogni2004} \\
+\texorpdfstring{I\textsubscript{134}}{I134} & 0.7673 & 52.5 m \cite{Sonzogni2004} \\
+\texorpdfstring{Te\textsubscript{135}}{Te135} & 3.4777 & 19.0 s \cite{tellurium135halflife} \\
+\texorpdfstring{I\textsubscript{135}}{I135} & 2.4635 & 6.58 h \cite{Singh2008} \\ 
+\texorpdfstring{Te\textsubscript{136}}{Te136} & 1.6652 & 17.63  s \cite{Mccutchan2018NuclearA=136} \\
+\texorpdfstring{I\textsubscript{136}}{I136} & 3.03823 & 83.4 s \cite{Mccutchan2018NuclearA=136} \\
+\texorpdfstring{Te\textsubscript{137}}{Te137} & 0.48440 & 2.49 s \cite{browne2007nuclear} \\
+\texorpdfstring{I\textsubscript{137}}{I137} & 2.7026 & 24.5 s \cite{browne2007nuclear} \\ 
+\texorpdfstring{Te\textsubscript{138}}{Te138} & 0.11280 & 1.4 s \cite{chen2017nuclear} \\ 
+\texorpdfstring{I\textsubscript{138}}{I138} & 1.2419 & 6.26 s \cite{chen2017nuclear} \\  \hline
 \end{tabular}
 \end{center}
 \end{table}
